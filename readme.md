@@ -19,3 +19,12 @@ This repo was tested on Python 3.6+ and PyTorch 1.5.1. The main requirements are
 - vocab.txt
 
 放置在./pretrained_bert_models对应的预训练模型文件夹下。
+
+## Experiments
+
+| Exp  | max length | training set size | batch size | Training time | Accuracy |
+| :--: | :--------: | :---------------: | :--------: | :-----------: | :------: |
+|  1   |    196     |       60000       |     32     |  20min/epoch  |  0.8567  |
+|  2   |            |                   |            |               |          |
+|  3   |            |                   |            |               |          |
+
