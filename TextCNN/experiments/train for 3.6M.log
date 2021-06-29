@@ -1,0 +1,32 @@
+2021-06-29 01:18:37,851:INFO: Added key: store_based_barrier_key:1 to store for rank: 1
+2021-06-29 01:18:37,851:INFO: Added key: store_based_barrier_key:1 to store for rank: 2
+2021-06-29 01:18:37,861:INFO: Added key: store_based_barrier_key:1 to store for rank: 0
+2021-06-29 02:33:26,382:INFO: Loading vectors from /home/tongshoujie/jupyter/TextCNN/data/glove.6B.100d.txt.pt
+2021-06-29 02:33:27,588:INFO: Loading vectors from /home/tongshoujie/jupyter/TextCNN/data/glove.6B.100d.txt.pt
+2021-06-29 02:34:11,948:INFO: Loading vectors from /home/tongshoujie/jupyter/TextCNN/data/glove.6B.100d.txt.pt
+2021-06-29 03:02:45,041:INFO: Epoch: 1, train loss: 52.751956939697266
+2021-06-29 03:02:55,228:INFO: epoch: 1, f1 score: 0.9307466149330139, dev loss: 92.4233627319336
+2021-06-29 03:03:00,831:INFO: --------Save best model!--------
+2021-06-29 03:12:30,676:INFO: Epoch: 2, train loss: 39.21440505981445
+2021-06-29 03:12:39,697:INFO: epoch: 2, f1 score: 0.934072732925415, dev loss: 91.42091369628906
+2021-06-29 03:12:43,778:INFO: --------Save best model!--------
+2021-06-29 03:22:10,926:INFO: Epoch: 3, train loss: 31.696727752685547
+2021-06-29 03:22:19,804:INFO: epoch: 3, f1 score: 0.9265095591545105, dev loss: 112.59880828857422
+2021-06-29 03:31:46,449:INFO: Epoch: 4, train loss: 22.528461456298828
+2021-06-29 03:31:55,364:INFO: epoch: 4, f1 score: 0.9274150133132935, dev loss: 111.61443328857422
+2021-06-29 03:41:21,346:INFO: Epoch: 5, train loss: 18.19705581665039
+2021-06-29 03:41:30,220:INFO: epoch: 5, f1 score: 0.921709418296814, dev loss: 129.63685607910156
+2021-06-29 03:50:57,039:INFO: Epoch: 6, train loss: 14.770968437194824
+2021-06-29 04:10:42,243:INFO: epoch: 6, f1 score: 0.9189813137054443, dev loss: 144.77398681640625
+2021-06-29 04:20:09,852:INFO: Epoch: 7, train loss: 11.220147132873535
+2021-06-29 04:20:21,626:INFO: epoch: 7, f1 score: 0.9121841192245483, dev loss: 148.58834838867188
+2021-06-29 04:29:48,785:INFO: Epoch: 8, train loss: 9.529362678527832
+2021-06-29 04:29:57,655:INFO: epoch: 8, f1 score: 0.9104984402656555, dev loss: 158.58189392089844
+2021-06-29 04:39:23,724:INFO: Epoch: 9, train loss: 8.128765106201172
+2021-06-29 04:39:32,689:INFO: epoch: 9, f1 score: 0.9080297946929932, dev loss: 171.80711364746094
+2021-06-29 04:48:59,501:INFO: Epoch: 10, train loss: 6.744449615478516
+2021-06-29 04:49:08,355:INFO: epoch: 10, f1 score: 0.9142929315567017, dev loss: 175.74111938476562
+2021-06-29 04:49:08,355:INFO: Best val f1: 0.934072732925415
+2021-06-29 04:49:08,356:INFO: Training Finished!
+2021-06-29 04:49:32,625:INFO: --------Load model from /home/tongshoujie/jupyter/TextCNN/experiments/model.pth--------
+2021-06-29 04:49:54,318:INFO: final test loss: 92.56897735595703, acc: 0.9337425, f1 score: 0.933556318283081, precision:0.9361873269081116, recall: 0.9309399724006653
