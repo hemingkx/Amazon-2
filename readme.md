@@ -22,10 +22,10 @@ This repo was tested on Python 3.6+ and PyTorch 1.5.1. The main requirements are
 
 ## Experiments
 
-| Exp  | max length | training set size | batch size | cls lr | Training time |        Accuracy         |
-| :--: | :--------: | :---------------: | :--------: | :----: | :-----------: | :---------------------: |
-|  1   |    196     |       60000       |     32     |  6e-4  |  20min/epoch  |         0.8567          |
-|  2   |    256     |       60000       |     24     |  6e-4  |  30min/epoch  |         0.8580          |
-|  3   |    196     |      360000       |     32     |  6e-4  |   2h/epoch    |         0.9080          |
-|  4   |    196     |      3600000      |     32     |  6e-4  |   20h/epoch   | **0.9416(6 epoch now)** |
+| Exp  | max length | training set size | batch size | cls lr | Training time |  Accuracy  |
+| :--: | :--------: | :---------------: | :--------: | :----: | :-----------: | :--------: |
+|  1   |    196     |       60000       |     32     |  6e-4  |  20min/epoch  |   0.8567   |
+|  2   |    256     |       60000       |     24     |  6e-4  |  30min/epoch  |   0.8580   |
+|  3   |    196     |      360000       |     32     |  6e-4  |   2h/epoch    |   0.9080   |
+|  4   |    196     |      3600000      |     32     |  6e-4  |   20h/epoch   | **0.9418** |
 
