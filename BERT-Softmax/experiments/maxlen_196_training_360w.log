@@ -1,0 +1,132 @@
+2021-06-22 14:39:55,933:INFO: device: cuda:2
+2021-06-22 14:46:58,147:INFO: --------train data process DONE!--------
+2021-06-22 14:47:30,898:INFO: --------test data process DONE!--------
+2021-06-22 14:47:31,083:INFO: --------Process Done!--------
+2021-06-22 14:48:14,072:INFO: Model name 'pretrained_bert_models/bert-base-uncased/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/bert-base-uncased/' is a path or url to a directory containing tokenizer files.
+2021-06-22 14:48:14,072:INFO: Didn't find file pretrained_bert_models/bert-base-uncased/added_tokens.json. We won't load it.
+2021-06-22 14:48:14,073:INFO: Didn't find file pretrained_bert_models/bert-base-uncased/special_tokens_map.json. We won't load it.
+2021-06-22 14:48:14,073:INFO: Didn't find file pretrained_bert_models/bert-base-uncased/tokenizer_config.json. We won't load it.
+2021-06-22 14:48:14,073:INFO: loading file pretrained_bert_models/bert-base-uncased/vocab.txt
+2021-06-22 14:48:14,073:INFO: loading file None
+2021-06-22 14:48:14,073:INFO: loading file None
+2021-06-22 14:48:14,073:INFO: loading file None
+2021-06-22 20:22:44,250:INFO: Model name 'pretrained_bert_models/bert-base-uncased/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/bert-base-uncased/' is a path or url to a directory containing tokenizer files.
+2021-06-22 20:22:44,250:INFO: Didn't find file pretrained_bert_models/bert-base-uncased/added_tokens.json. We won't load it.
+2021-06-22 20:22:44,250:INFO: Didn't find file pretrained_bert_models/bert-base-uncased/special_tokens_map.json. We won't load it.
+2021-06-22 20:22:44,250:INFO: Didn't find file pretrained_bert_models/bert-base-uncased/tokenizer_config.json. We won't load it.
+2021-06-22 20:22:44,251:INFO: loading file pretrained_bert_models/bert-base-uncased/vocab.txt
+2021-06-22 20:22:44,251:INFO: loading file None
+2021-06-22 20:22:44,251:INFO: loading file None
+2021-06-22 20:22:44,251:INFO: loading file None
+2021-06-22 20:29:27,886:INFO: --------Dataset Build!--------
+2021-06-22 20:29:27,886:INFO: --------Get Dataloader!--------
+2021-06-22 20:29:27,886:INFO: loading configuration file pretrained_bert_models/bert-base-uncased/config.json
+2021-06-22 20:29:27,887:INFO: Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 2,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pad_token_id": 0,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 30522
+}
+
+2021-06-22 20:29:27,887:INFO: loading weights file pretrained_bert_models/bert-base-uncased/pytorch_model.bin
+2021-06-22 20:29:30,465:INFO: Weights of BertForCls not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+2021-06-22 20:29:30,465:INFO: Weights from pretrained model not used in BertForCls: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+2021-06-22 20:29:31,820:INFO: --------Start Training!--------
+2021-06-23 17:33:03,776:INFO: Epoch: 1, train loss: 0.29030406109666
+2021-06-23 17:41:20,167:INFO: Epoch: 1, dev loss: 0.20667340437074502, accuracy: 0.9175972222222222
+2021-06-23 17:41:20,167:INFO: Configuration saved in /home/xiaheming/workspace/Amazon-2/experiments/config.json
+2021-06-23 17:41:22,277:INFO: Model weights saved in /home/xiaheming/workspace/Amazon-2/experiments/pytorch_model.bin
+2021-06-23 17:41:22,277:INFO: --------Save best model!--------
+2021-06-24 16:11:09,343:INFO: Epoch: 2, train loss: 0.19761632617164293
+2021-06-24 16:20:21,711:INFO: Epoch: 2, dev loss: 0.1828359415953358, accuracy: 0.9287222222222222
+2021-06-24 16:20:21,712:INFO: Configuration saved in /home/xiaheming/workspace/Amazon-2/experiments/config.json
+2021-06-24 16:20:23,920:INFO: Model weights saved in /home/xiaheming/workspace/Amazon-2/experiments/pytorch_model.bin
+2021-06-24 16:20:23,920:INFO: --------Save best model!--------
+2021-06-25 11:53:35,333:INFO: Epoch: 3, train loss: 0.17542966390230488
+2021-06-25 12:00:40,658:INFO: Epoch: 3, dev loss: 0.1694597877835234, accuracy: 0.9351388888888889
+2021-06-25 12:00:40,659:INFO: Configuration saved in /home/xiaheming/workspace/Amazon-2/experiments/config.json
+2021-06-25 12:00:42,729:INFO: Model weights saved in /home/xiaheming/workspace/Amazon-2/experiments/pytorch_model.bin
+2021-06-25 12:00:42,729:INFO: --------Save best model!--------
+2021-06-26 06:44:21,624:INFO: Epoch: 4, train loss: 0.16070407923692817
+2021-06-26 06:52:49,333:INFO: Epoch: 4, dev loss: 0.163080291852355, accuracy: 0.9383611111111111
+2021-06-26 06:52:49,333:INFO: Configuration saved in /home/xiaheming/workspace/Amazon-2/experiments/config.json
+2021-06-26 06:52:51,468:INFO: Model weights saved in /home/xiaheming/workspace/Amazon-2/experiments/pytorch_model.bin
+2021-06-26 06:52:51,468:INFO: --------Save best model!--------
+2021-06-27 01:13:26,158:INFO: Epoch: 5, train loss: 0.14656709562644127
+2021-06-27 01:21:51,591:INFO: Epoch: 5, dev loss: 0.1566372946144806, accuracy: 0.9412222222222222
+2021-06-27 01:21:51,592:INFO: Configuration saved in /home/xiaheming/workspace/Amazon-2/experiments/config.json
+2021-06-27 01:21:53,901:INFO: Model weights saved in /home/xiaheming/workspace/Amazon-2/experiments/pytorch_model.bin
+2021-06-27 01:21:53,902:INFO: --------Save best model!--------
+2021-06-27 20:03:17,369:INFO: Epoch: 6, train loss: 0.13087799325461189
+2021-06-27 20:10:32,276:INFO: Epoch: 6, dev loss: 0.15658363111068804, accuracy: 0.9416527777777778
+2021-06-27 20:10:32,276:INFO: Configuration saved in /home/xiaheming/workspace/Amazon-2/experiments/config.json
+2021-06-27 20:10:34,463:INFO: Model weights saved in /home/xiaheming/workspace/Amazon-2/experiments/pytorch_model.bin
+2021-06-27 20:10:34,463:INFO: --------Save best model!--------
+2021-06-28 15:45:08,782:INFO: Epoch: 7, train loss: 0.11216329194400079
+2021-06-28 15:52:25,876:INFO: Epoch: 7, dev loss: 0.1642833066549566, accuracy: 0.9412083333333333
+2021-06-29 10:50:57,206:INFO: Epoch: 8, train loss: 0.09133103745861523
+2021-06-29 10:57:58,787:INFO: Epoch: 8, dev loss: 0.17812387847776215, accuracy: 0.9418611111111111
+2021-06-29 10:57:58,875:INFO: Configuration saved in /home/xiaheming/workspace/Amazon-2/experiments/config.json
+2021-06-29 10:58:00,734:INFO: Model weights saved in /home/xiaheming/workspace/Amazon-2/experiments/pytorch_model.bin2021-06-29 10:58:00,734:INFO: --------Save best model!--------
+2021-06-29 21:03:59,433:INFO: loading file pretrained_bert_models/bert-base-uncased/vocab.txt
+2021-06-29 21:03:59,433:INFO: loading file None
+2021-06-29 21:03:59,433:INFO: loading file None
+2021-06-29 21:03:59,433:INFO: loading file None
+2021-06-29 21:45:56,192:INFO: --------Dataset Build!--------
+2021-06-29 21:45:56,288:INFO: --------Get Data-loader!--------
+2021-06-29 21:45:56,304:INFO: loading configuration file /home/xiaheming/workspace/Amazon-2/experiments/config.json
+2021-06-29 21:45:56,356:INFO: Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 2,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pad_token_id": 0,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 30522
+}
+
+2021-06-29 21:45:56,358:INFO: loading weights file /home/xiaheming/workspace/Amazon-2/experiments/pytorch_model.bin
+2021-06-29 21:46:02,395:INFO: --------Load model from /home/xiaheming/workspace/Amazon-2/experiments/--------
+2021-06-29 22:24:46,909:INFO: test loss: 0.1768903077056259, accuracy: 0.941915
+
