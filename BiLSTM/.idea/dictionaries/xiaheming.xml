@@ -1,0 +1,22 @@
+<component name="ProjectDictionaryState">
+  <dictionary name="xiaheming">
+    <words>
+      <w>backprop</w>
+      <w>bilstm</w>
+      <w>bleu</w>
+      <w>cuda</w>
+      <w>dataloader</w>
+      <w>logit</w>
+      <w>logits</w>
+      <w>lrate</w>
+      <w>lstm</w>
+      <w>noamopt</w>
+      <w>optim</w>
+      <w>pretrained</w>
+      <w>sents</w>
+      <w>softmax</w>
+      <w>unigrams</w>
+      <w>unsqueeze</w>
+    </words>
+  </dictionary>
+</component>
